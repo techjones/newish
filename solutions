@@ -1,6 +1,9 @@
 //a record of coding problems solved
 //will optimize each 
 
-sum array
+//sum array
 
-find range
+// find range. given 2 numbers find the range between them
+
+  function rang(n,m){result=0;if(n>m){for(var i=m;i<n;i++){result++;};}else if(n<m){for(var i=n;i<m;i++){result++;}return result;}};ranged(3,6);
+3
