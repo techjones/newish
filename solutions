@@ -27,7 +27,13 @@ will optimize each */
             
 
 
-//sum array
+//sum array sum all the elements of an array
+
+    function sumarr(input){
+           var result= 0;
+     for(var i=0,x=input.length;i<x;i++){
+          result+=input[i];
+                 }return result;}
 
 // find range. given 2 numbers find the range between them
 
