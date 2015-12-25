@@ -68,4 +68,4 @@ ranged(3,6);
 //reverse a strang
 
 
-str="abcdefghijklm",res='';for(var i=str.length-1;i>0;i--){res+=str[i];console.log(res);}
+str="abcdefghijklm",res='';for(var i=str.length-1;i>0;i--){res+=str[i];}console.log(res);
