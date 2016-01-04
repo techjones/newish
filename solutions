@@ -99,4 +99,14 @@ will optimize each */
 		console.log(sum+" "+prod);};
 		sym(arr); //118 18090
 
-VM467:2 118 18090
+//remove all false values from array
+//falsely bouncer
+
+                function nofalseys(input){
+
+  var troos=[];
+  
+  for(var i=0;i<input.length;i++){
+    if(input[i]){troos.push(input[i]);}}
+     console.log(troos);}
+     nofalseys(["thot",false,null,34,"yass"]);
