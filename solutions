@@ -68,6 +68,13 @@ function shuffle(arr){
 			{yea.push(ar1[j]);}}};
 			console.log(yea);
 
+/*Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.
+*/
+
+    var arr1=[4,9,2,5],arr2=[1,7,3,6],
+res=arr1.concat(arr2).sort();console.log(res);
+
+    
 
 //sum array sum all the elements of an array
 
