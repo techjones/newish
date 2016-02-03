@@ -2,6 +2,15 @@
 will optimize each */
 
 
+/*  Given an array of numbers nums, in which exactly two elements appear only once and all the other elements appear exactly twice. Find the two elements that appear only once.*/
+
+    var arr=      ["a","b","b","c","a","d"];arr.sort();
+       carr=[];
+    for(var i=0;i<arr.length;i++){
+         if(arr[i]!=arr[i+1]){arr.splice(arr[i],2);}}
+     console.log(arr);
+
+
 //fibonacci sequence
   
         	function fibo(n) {
